@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uk-tribunals",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UK first-tier tribunal decisions — GOV.UK search + content API.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-24b4bd447110e3468b988642bb5c8f329dd5514f34868cda5fdb1cde34ec2ecd",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-ba797f6a79d3ba7a866aa927d7b5f62ee7d601a81e428f3bc6d861eb9652d01f",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }

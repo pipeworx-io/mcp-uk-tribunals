@@ -6,7 +6,7 @@ Residential Property Tribunal, the Upper Tribunal (Administrative Appeals
 Chamber — social security, disability and child support appeals), and the
 Upper Tribunal (Tax and Chancery Chamber).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1684+ live data sources.
 
 **The reason this pack exists:** Find Case Law (`uk-caselaw`) carries the
 Employment **Appeal** Tribunal only — it has no court code for the first-tier
@@ -135,7 +135,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1684+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

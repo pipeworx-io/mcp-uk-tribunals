@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/uk-tribunals",
   "title": "Uk Tribunals",
   "description": "UK first-tier tribunal decisions — GOV.UK search + content API.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/uk-tribunals",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-uk-tribunals",
