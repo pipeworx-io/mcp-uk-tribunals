@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-uk-tribunals",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "UK first-tier tribunal decisions — GOV.UK search + content API.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-uk-tribunals": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uk-tribunals"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-uk-tribunals.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/uk-tribunals",
   "pipeworx": {
-    "sourceHash": "v1-ba797f6a79d3ba7a866aa927d7b5f62ee7d601a81e428f3bc6d861eb9652d01f",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "uk-tribunals",
+    "gatewaySlug": "uk-tribunals",
+    "sourceHash": "v1-3668c6a34ee50118d78d9caf3f1f26db3a67f0160c98a68ea8d91c42bf6e939c",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
